@@ -412,6 +412,10 @@ a:visited{
     position: relative;
     top: 5px;
 }
+#seemore:visited{
+    color: blue;
+    text-decoration: none;
+}
 #game{
     padding: 20px 0px 15px;
     padding-left: 15px;
