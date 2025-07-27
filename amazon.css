@@ -1,0 +1,583 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+header{
+    height: 3.75rem;
+}
+#navbar{
+    height: 3.75rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ #navlogo{
+    height: 3.125rem;
+    width: 6.25rem;
+ } 
+#logo{
+    background-image: url(amazon_logo.png);
+    height: 3.125rem;
+    width: 6.25rem; 
+    background-size: cover;
+    display: inline-block;
+}
+#logo:hover{
+    height: 3rem;
+    border: 0.125rem solid white;
+}
+#first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 0.9rem;
+    
+}
+#addicon{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+#second{
+    font-size: 1rem;
+    margin-left: 0.1875rem;
+    color: white;
+    font-weight: bold;
+}
+#address:hover{
+    border: 0.125rem solid white;
+}
+#nav-search{
+    display: flex;
+    width: 50rem;
+    height:2.5rem;
+} 
+#search-icon{
+    width: 2.81rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    background-color:rgb(255, 201, 100);
+    border-bottom-right-radius:0.1875rem ;
+    border-top-right-radius: 0.1875rem ;
+
+}
+#search{
+    border-top-left-radius: 0.1875rem;
+    border-bottom-left-radius: 0.1875rem;
+    width: 3.125rem;
+    text-align: center;
+    border: none;
+}
+#amazon-search{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+#country{
+    height: 3.125rem;
+    width: 4.37rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#count{
+      /* background-image: url(download.png); */
+      background-size: cover;
+      height:1rem;
+      width: 1.31rem;
+}
+#flag{
+    height: 1rem;
+    width: 1.31rem;
+}
+#count{
+    height: 0.9rem;
+    width: 1.125rem;
+    font-size: 0.85rem;
+    font-family:Arial;
+    font-weight: bolder;
+    color: white;
+    margin: 0.125rem;
+}
+#country:hover{
+    height: 3rem;
+    border: 0.125rem solid white;
+}
+#arrow{
+    color: grey;
+    width: 0.25rem;
+    height: 0.125rem;
+    position: relative;
+    bottom: 0.375rem;
+    /* right: 0.15rem; */
+}
+#acc{
+    height: 3.125rem;
+    width: 8.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+#hello{
+    color:white;
+    font-size: 0.75rem;
+    text-decoration: none;
+}
+#acc:hover{
+    height: 3rem;
+    border: 0.125rem solid white;
+}
+#accoun{
+    text-decoration: none;
+    color: white;
+}
+#accoun:visited{
+    color: white;
+    text-decoration: none;
+}
+#account{
+    color: white;
+    font-size: 0.80rem;
+    height: 0.9rem;
+    width: 7.81rem;
+    font-weight: bolder;
+    display: flex;
+    text-decoration: none;
+}
+#arr{
+    color: grey;
+    font-size: 1rem;
+    width: 0.625rem;
+    height: 0.25rem;
+    text-decoration: none;
+}
+#orders{
+    width: 4.68rem;
+    height: 3.125rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-decoration: none; */
+}
+#obox{
+    text-decoration: none;
+    color: white;
+}
+/* #obox:visited{
+    color: white;
+    text-decoration: none;
+} */
+#return{
+    font-size: 0.8rem;
+    color: white;
+}
+#ord{
+    font-size: 0.85rem;
+    font-weight: bolder;
+    color: white;
+
+}
+#orders:hover{
+    height: 3rem;
+    border: 0.125rem solid white;
+}
+#shopping-cart{
+    height: 3.12rem;
+    width: 3.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shopping-cart:hover{
+    height: 3rem;
+    border: 0.125rem solid white;
+}
+#cart-text{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    position: relative;
+    top: 0.3rem;
+}
+#cart{
+    color:#fff;
+    height: 1.75rem;
+    width: 2.5rem;
+    font-size: 2.5rem;
+    position: relative;
+    bottom: 0.43rem;
+    right: 0.125rem;
+}
+#navbaar{
+    height: 2.5rem;
+    width: 100%;
+    background-color: #222f3d;;
+    display: flex;
+    justify-content: flex-start;
+}
+#bar{
+    height: 2.5rem;
+    width: 3.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#barr{
+    color: white;
+    font-size: 1.2rem;
+}
+#A{
+    color:white;
+    font-size: 1rem;
+    position: relative;
+    left: 2px;
+}
+#today{
+    display: flex;
+    height: 2.5rem;
+    width: 6.56rem;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+#goals{
+    text-decoration: none;
+    color:white;
+}
+/* #goals:visited{
+    color: white;
+    text-decoration: none;
+} */
+#prime_video{
+    height: 2.5rem;
+    width: 6.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bar:hover{
+    height: 2.2rem;
+     border: 0.125rem solid white;
+}
+#today:hover{
+    height: 2.2rem;
+    border: 0.125rem solid white;
+}
+#prime_video:hover{
+    height: 2.2rem;
+    border: 0.125rem solid white;
+}
+#prime{
+    text-decoration: none;
+    color: white;
+}
+/* #prime:visited{
+    text-decoration: none;
+    color: white;
+} */
+#registry{
+    width: 4.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#registry:hover{
+    height: 2.2rem;
+    border: 0.125rem solid white;
+}
+#register{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+#giftcards{
+    height: 2.5rem;
+    width: 5.18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#giftcards:hover{
+    height: 2.2rem;
+    border: 0.125rem solid white;
+}
+#gifts{
+    color: white;
+    text-decoration: none;
+}
+#customer{
+    height: 2.5rem;
+    width: 8.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#service{
+    color: white;
+    text-decoration: none;
+
+}
+#customer:hover{
+    height: 2.2rem;
+    border: 0.125rem solid white;
+}
+#sell{
+    height: 2.5rem;
+    width: 2.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#selll{
+    color: white;
+    text-decoration: none;
+
+}
+#sell:hover{
+    height: 2.2rem;
+    border: 0.125rem solid white;
+}
+#hero-section{
+    background-image: url("books.jpg");
+    height: 25rem;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#hero-msg{
+    color: black;
+    background-color: white;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom:1.56rem ;
+}
+#hero-msg a{
+    color: #007185;
+    text-decoration: none;
+}
+#Click:visited{
+    text-decoration: none;
+    color: #007185;
+}
+#shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(217, 217, 175);
+    height: 27rem;
+}
+#accessories{
+    padding: 20px 0px 15px;
+    padding-left: 15px;
+}
+#box{
+    height:26rem;
+    width: 23%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+#makeup{
+    padding: 20px 0px 15px;
+    padding-left: 15px;
+}
+#img{
+    margin-right: 15px;
+    margin-left: 15px;
+    height: 19rem;
+}
+#seemore{
+    color: blue;
+    text-decoration:none;
+    padding: 18px 0px 15px;
+    padding-left: 15px;
+    font-size: 13.5px;
+    position: relative;
+    top: 5px;
+}
+#game{
+    padding: 20px 0px 15px;
+    padding-left: 15px;
+}
+#Mother-day{
+    padding: 20px 0px 15px;
+    padding-left: 15px;
+}
+#toys{
+    padding: 20px 0px 15px;
+    padding-left: 15px;
+}
+#tab{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(217, 217, 175);
+    height: 27rem;
+}
+#row2{
+    height:26rem;
+    width: 23%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+#cloth{
+    padding: 20px 0px 15px;
+    padding-left: 15px;
+}
+#clothphoto{
+    height: 90%;
+    padding: 15px;
+    padding-bottom: 10px;
+}
+#mobile{
+    padding: 20px 0px 15px;
+    padding-left: 15px;
+}
+#phone{
+    height: 71%;
+    padding: 15px; 
+}
+#seerow2{
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-decoration: none;
+    color: blue;
+    font-size: 13.5px;
+    padding-top: 2px;
+}
+#furniturerow3{
+    padding: 20px 0px 15px;
+    padding-left: 15px;
+}
+#furniturephoto{
+    height: 90%;
+    padding: 15px;
+}
+#health{
+    padding: 20px 0px 15px;
+    padding-left: 15px;
+}
+#personalcare{
+    height: 70%;
+    padding: 15px;
+}
+footer{
+    margin-top: 15px;
+}
+#foot-panel1{
+    color:white;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49px;
+    font-size: 0.85rem;
+}
+#foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+#get{
+    font-weight: bolder;
+    
+}
+#money{
+    font-weight: bolder;
+    padding-top: 50px;
+}
+#payment{
+    font-weight: bolder;
+}
+#pay{
+    padding-bottom: 55px;
+}
+#help{
+    font-weight: bolder;
+    padding-top:15px;
+}
+#footpanel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logofooter{
+    background-image: url(amazon_logo.png);
+    height: 3.125rem;
+    width: 6.25rem; 
+    background-size: cover;
+    display: inline-block;
+
+}
+#one{
+    
+    text-decoration: none;
+    font-size: 14px;
+}
+#two{
+   
+    text-decoration: none;
+    font-size: 14px;
+}
+#three{
+    
+    text-decoration: none;
+    font-size: 14px;
+}
+#four{
+    
+    text-decoration: none;
+    font-size: 14px;
+}
+#copyright{
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:10px;
+
+}
+#footpanel4{
+    background-color: #0f1111;
+    height: 100px
+}
+#pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 25px;
+}
+#one{
+    color: white;
+}
