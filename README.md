@@ -15,6 +15,7 @@ This is a frontend-only clone of the Amazon (US version), built purely using HTM
 ✅ Hover effects and clean visual layout
 <br>
 🛠️ Tech Stack
+<br>
 HTML
 <br>
 CSS
